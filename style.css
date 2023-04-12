@@ -293,6 +293,15 @@ body{
    box-shadow: 1px 1px 20px -11px #000000;
 }
 
+.action_discount{
+   position: absolute;
+   top: 0;
+   background: linear-gradient(135deg, rgba(252, 47, 11, 1), rgba(255, 89, 15, 1));
+   color: white;
+   padding: 8px 15px 8px 15px;
+   border-radius: 15px 0 15px 0;
+}
+
 .action_card_name_restaurant{
    margin-left: 22px;
    margin-top: 16px;
