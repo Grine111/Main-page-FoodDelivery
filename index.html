@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food Delivery - доставка еды</title>
+   <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon_logo.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon_logo.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon_logo.png">
+   <link rel="manifest" href="/site.webmanifest">
+   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header">
+      <div class="header_container">
+         <div class="inner_header">
+            <img src="icon/header_logo.png" alt="Лого" class="inner_header_logo">
+            <div class="inner_header_nav">
+               <ul>
+                  <li><a href="#">Ресторанам</a></li>
+                  <li><a href="#">Курьерам</a></li>
+                  <li><a href="#">Акции</a></li>
+               </ul>
+            </div>
+            <div class="inner_header_btn">
+               <ul>
+                  <a href="#">
+                     <li>Москва</li>
+                  </a>
+                  <a href="#"><li>Войти</li></a>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main">
+      <div class="main_container">
+
+         <!--БЛОК ВЫБОРА АДРЕСА ДОСТАВКИ-->
+         <div class="main_container_adress_delivery">
+            <div class="main_container_adress_delivery_title">
+               <h1>Быстрая доставка еды <br> в Москве</h1>
+            </div>
+            <div class="main_container_search">
+               <input type="search" id="search" placeholder="Укажите Ваш адрес доставки..." class="main_container_search_input">
+            </div>
+         </div>
+
+         <!--БЛОК ВЫБОРА АССОРТИМЕНТА РЕСТОРАНОВ-->
+         <div class="main_container_selectEat">
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/noodles.svg" alt="Лапша" class="">Лапша</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/pizza.svg" alt="Пицца" class="">Пицца</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/shawarma.svg" alt="Шаурма" class="">Шаурма</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/beverages.svg" alt="Напитки" class="">Напитки</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/breakfasts.svg" alt="Завтраки" class="">Завтраки</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/dinners.svg" alt="Обеды" class="">Обеды</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/snacks.svg" alt="Закуски" class="">Закуски</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/donar.svg" alt="Донар" class="">Донар</div></a>
+            <a href="#"><div class="selectEat"><img src="mainSelectEat/burgers.svg" alt="Бургеры" class="">Бургеры</div></a>
+         </div>
+
+         <!--БЛОК КНОПКИ "ЗАКАЗАТЬ СЕЙЧАС"-->
+         <div class="main_container_title_and_delivery">
+            <div class="main_container_two_block">
+               <div class="main_container_title">
+                  <h1>Угости своих родных <br> и близких!</h1>
+               </div>
+                  <div class="container_delivery_btn">
+                     <button type="submit" class="delivery_btn">Заказать сейчас</button>
+                  </div>
+            </div>
+            <div class="main_container_delivery_img">
+               <img src="mainTitleAndDelivery/img_title_and_delivery.png" alt="Заказ доставки">
+            </div>
+         </div>
+
+         <!--БЛОК РЕСТОРАНОВ АКЦИЙ-->
+         <div class="main_container_action">
+            <h1 class="action_title">Акции</h1>
+            <div class="inner_container_action">
+
+               <div class="action_card_food">
+                  <img src="actionBlockIcon/icon_food_burger.jpg" alt="" srcset="">
+                  <h2 class="action_card_name_restaurant">Burger King</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>20-30 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,5</p></div>
+                     <div class="title_price"><p>от 500₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="actionBlockIcon/icon_food_tochka.jpg" alt="" srcset="">
+                  <h2 class="action_card_name_restaurant">McDonald's</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>25-45 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,4</p></div>
+                     <div class="title_price"><p>от 500₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="actionBlockIcon/icon_food_kfc.jpg" alt="" srcset="">
+                  <h2 class="action_card_name_restaurant">KFC</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>40-50 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,2</p></div>
+                     <div class="title_price"><p>от 500₽</p></div>
+                  </div>
+               </div>
+
+               
+            </div>
+         </div>
+
+         <!--БЛОК РЕСТОРАНОВ-->
+         <div class="main_container_restaurants">
+            <h1 class="action_title">Рестораны</h1>
+            <div class="inner_container_restaurants">
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_blin.jpg" alt="Картинка Блинбери" srcset="">
+                  <h2 class="action_card_name_restaurant">Блинбери</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>20-35 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,0</p></div>
+                     <div class="title_price"><p>от 100₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_aik.jpg" alt="Картинка Aik" srcset="">
+                  <h2 class="action_card_name_restaurant">Aik</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>25-40 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,1</p></div>
+                     <div class="title_price"><p>от 250₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_yakitoriya.jpg" alt="Картинка Якитория" srcset="">
+                  <h2 class="action_card_name_restaurant">Якитория</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>30-50 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,2</p></div>
+                     <div class="title_price"><p>от 300₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_sushivesla.jpg" alt="Картинка Суши Весла" srcset="">
+                  <h2 class="action_card_name_restaurant">Суши Весла</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>10-20 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,0</p></div>
+                     <div class="title_price"><p>от 300₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_rusters.jpg" alt="Картинка Рустерс" srcset="">
+                  <h2 class="action_card_name_restaurant">Рустерс</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>25-40 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,1</p></div>
+                     <div class="title_price"><p>от 350₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_subway.jpg" alt="Картинка Subway" srcset="">
+                  <h2 class="action_card_name_restaurant">Subway</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>10-15 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,5</p></div>
+                     <div class="title_price"><p>от 200₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_pitpoint.jpg" alt="Картинка Пит Point" srcset="">
+                  <h2 class="action_card_name_restaurant">Пит Point</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>15-25 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,6</p></div>
+                     <div class="title_price"><p>от 100₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_vorstolovaya.jpg" alt="Картинка Ворошиловская столовая" srcset="">
+                  <h2 class="action_card_name_restaurant">Ворошиловская столовая</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>20-30 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>3,2</p></div>
+                     <div class="title_price"><p>от 150₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_shashlikoff.jpg" alt="Картинка ШашлыкоFF" srcset="">
+                  <h2 class="action_card_name_restaurant">ШашлыкoFF</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>30-40 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,2</p></div>
+                     <div class="title_price"><p>от 300₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_mybox.jpg" alt="Картинка MYBOX" srcset="">
+                  <h2 class="action_card_name_restaurant">MYBOX</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>40-45 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,3</p></div>
+                     <div class="title_price"><p>от 600₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_beefyburger.jpg" alt="Картинка Beffy Burgers" srcset="">
+                  <h2 class="action_card_name_restaurant">Beffy Burgers</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>20-30 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,8</p></div>
+                     <div class="title_price"><p>от 350₽</p></div>
+                  </div>
+               </div>
+
+               <div class="action_card_food">
+                  <img src="restaurantIconFood/icon_food_rica.jpg" alt="Картинка Рица" srcset="">
+                  <h2 class="action_card_name_restaurant">Рица</h2>
+                  <div class="time_star_price_container">
+                     <div class="title_time"><img src="icon/icon_time.svg"><p>30-40 мин</p></div>
+                     <div class="title_star"><img src="icon/icon_star.svg"><p>4,2</p></div>
+                     <div class="title_price"><p>от 400₽</p></div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+         <div class="btn_buttom_restaurants">
+            <button type="submit" class="btn_show_options">Показать все варианты...</button>
+         </div>
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="footer_container">
+         <img src="icon/header_logo.png" alt="">
+           <ul>
+             <li><a href="#">Для ресторанов</a></li>
+             <li><a href="#">Курьерам</a></li>
+             <li><a href="#">Пресс-центр</a></li>
+             <li><a href="#">Контакты</a></li>
+           </ul>
+           <div class="footer_social">
+               <p>Присоединяйтесь к нам:</p>
+                  <div class="container_social_icons">
+                     <a href=""><img src="iconFooter/icon_inst.svg" alt=""></a>
+                     <a href=""><img src="iconFooter/icon_tg.svg" alt=""></a>
+                     <a href=""><img src="iconFooter/icon_yt.svg" alt=""></a>
+                     <a href=""><img src="iconFooter/icon_vk.svg" alt=""></a>
+                  </div>
+           </div>
+      </div>
+      <p class="copyright">© 2020–2024, ООО «Фуд Деливери», официальный сайт.</p>
+   </footer>
+ 
+
+</body>
+</html>

@@ -1,0 +1,483 @@
+/*
+font-family: 'Product Sans', sans-serif;
+font-family: 'Product Sans Thin', sans-serif;
+font-family: 'Product Sans Light', sans-serif;
+font-family: 'Product Sans Medium', sans-serif;
+font-family: 'Product Sans Black', sans-serif;
+                                                
+*/
+ul{
+   padding: 0px;
+   margin: 0px;
+}
+a{
+   margin: 0px;
+}
+p{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   font-family: 'Product Sans Medium', sans-serif;
+   background-color: #F5F5F5;
+}
+
+.main{
+   margin-bottom: 120px;
+}
+
+.header{
+   background: rgba(252, 41, 12, 1.0);
+   box-shadow: 1px 1px 20px -11px #000000;
+   max-width: 1920px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.inner_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   max-width: 1220px;
+}
+
+.inner_header img{
+   min-width: 170px;
+   width: 86px;
+}
+
+.inner_header ul li{
+   display: inline;
+}
+
+.inner_header ul li a{
+   text-decoration: none;
+   color: white;
+   margin: 0px 20px;
+}
+
+.inner_header ul li a:hover{
+   text-decoration: underline;
+}
+
+.inner_header_btn ul a{
+   border: 2px white solid;
+   text-decoration: none;
+   color: white;
+   border-radius: 50px;
+   margin: 0 21px;
+   padding: 4px 26px;
+   transition: all 0.4s ease-in-out;
+}
+
+.inner_header_btn ul a:hover{
+   background-color: #fff;
+   color: rgba(252, 41, 12, 1.0);
+}
+
+.main_container{
+   max-width: 1220px;
+   margin: 0 auto;
+}
+
+/*БЛОК ВЫБОРА АДРЕСА ДОСТАВКИ*/
+.main_container_adress_delivery{
+   background-image: url("bg/bg_adress_delivery.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background: cover;
+   margin-top: 25px;
+   max-width: 1220px;
+   height: 310px;
+   box-shadow: 1px 1px 20px -11px #000000;
+   border-radius: 15px;
+   border: none
+}
+
+.main_container_adress_delivery_title{
+   padding-top: 53px;
+   padding-left: 48px;
+}
+
+.main_container_adress_delivery_title h1{
+   line-height: 64px;
+   font-size: 50px;
+   color: #fff;
+   font-family: 'Product Sans Light', sans-serif;
+   margin: 0px
+}
+
+
+.main_container_search{
+   overflow: hidden;
+   width: 500px;
+   vertical-align: middle;
+   white-space: nowrap;
+   padding-left: 48px;
+   padding-top: 32px;
+   /* position: relative; */
+ }
+ .main_container_search input#search{
+   width: 500px;
+   height: 50px;
+   background: white;
+   border: none;
+   font-size: 14px;
+   float: left;
+   color: black;
+   padding-left: 15px;
+   border-radius: 5px;
+   outline:none
+ }
+ /**/
+
+ /*БЛОК ВЫБОРА АССОРТИМЕНТА РЕСТОРАНОВ*/
+ .main_container_selectEat{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .main_container_selectEat a{
+   margin-top: 25px;
+   text-decoration: none;
+   font-family: 'Product Sans Medium' sans-serif;
+   color: black;
+   text-align: center;
+ }
+ 
+ .selectEat{
+   width: 120px;
+   height: 120px;
+   background-color: white;
+   margin: 0px 7.5px;
+   border-radius: 16px;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 1px 1px 20px -11px #000000;
+   transition: all .2s ease;
+ }
+
+.selectEat img{
+   width: 68px;
+   height: 68px;
+   display: block;
+   margin: 0 auto;
+   padding-top: 18px;
+}
+
+.selectEat:hover
+{
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 1px 1px 20px -11px #000000;
+  cursor: pointer;
+}
+/**/
+
+/*БЛОК КНОПКИ "ЗАКАЗАТЬ СЕЙЧАС"*/
+.main_container_title_and_delivery{
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: 1px 1px 20px -11px #000000;
+   margin-top: 55px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+.main_container_two_block{
+   width: 50%;
+}
+.main_container_title{
+   width: 450px;
+   padding-top: 34px;
+   padding-left: 44px;
+}
+
+.main_container_title h1{
+   color: black;
+   font-family: 'Product Sans Medium' sans-serif;
+   margin: 0px;
+   padding: 0px;
+   font-size: 45px;
+   line-height: 66px;
+}
+
+/*.main_container_delivery_btn{
+   margin-top: 34px;
+   margin-left: 44px;
+   border-radius: 40px;
+   background-color: rgba(252, 47, 11, 1);
+   width: 244px;
+   height: 59px;
+}*/
+
+.main_main_main{
+   margin-top: 34px;
+   margin-left: 44px;
+   border-radius: 40px;
+   background-color: rgba(252, 47, 11, 1);
+   width: 244px;
+   height: 59px;
+}
+
+.delivery_btn{
+   margin-top: 34px;
+   margin-left: 44px;
+   margin-bottom: 34px;
+   background: linear-gradient(
+135deg
+, rgba(252, 47, 11, 1), rgba(255, 89, 15, 1));
+   padding: 15px;
+   border: none;
+   border-radius: 50px;
+   color: white;
+   font-weight: 400;
+   font-size: 1.2rem;
+   margin-top: 10px;
+   width:100%;
+   letter-spacing: .11rem;
+   outline:none;
+   width: 244px;
+   height: 59px;
+   transition: all .3s ease;
+   box-shadow: 1px 1px 20px -11px #000000;
+}
+
+.delivery_btn:hover
+{
+  transform: scale(1.05) translateY(-3px);
+   box-shadow: 3px 3px 6px #38373785;
+   cursor: pointer;
+}
+
+.main_container_delivery_img{
+   width: 50%;
+}
+
+.main_container_delivery_img img{
+   object-fit: cover;
+}
+/**/
+
+/*БЛОК РЕСТОРАНОВ АКЦИЙ*/
+.main_container_action{
+   margin-top: 55px;
+}
+
+.action_title{
+   margin-top: 0px;
+   margin-bottom: 33px;
+}
+
+.inner_container_action{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.action_card_food{
+   background-color: white;
+   width: 397px;
+   height: 328px;
+   border-radius: 15px;
+   margin: 0px;
+   margin-bottom: 36px;
+   padding: 0px;
+   max-width: 100%;
+   box-sizing: border-box;
+   position: relative;
+   transition: all .3s ease;
+   box-shadow: 1px 1px 20px -11px #000000;
+}
+
+.action_card_name_restaurant{
+   margin-left: 22px;
+   margin-top: 16px;
+}
+
+.action_card_food:hover{
+   transform: scale(1.02) translateY(-1px);
+   box-shadow: 1px 1px 20px -11px #000000;
+   cursor: pointer;
+}
+
+.action_card_food img{
+   width: 100%;
+   object-fit: cover;
+   display: block;
+   height: 222px;
+   border-radius: 15px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+
+.time_star_price_container{
+   display: flex;
+   align-items: start;
+   margin-left: 22px;
+   margin-top: 16px;
+}
+
+.title_time{
+   background: linear-gradient(135deg, rgba(252, 47, 11, 1), rgba(255, 89, 15, 1));
+   border-radius: 40px;
+   color: white;
+   padding: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title_time img{
+   width: 16px;
+   height: 16px;
+   margin-left: 6px;
+   margin-right: 6px;
+}
+
+.title_time p{
+   padding-right: 6px;
+}
+
+.title_star{
+   background-color: #D9D9D9;
+   border-radius: 40px;
+   color: #626262;
+   padding: 6px;
+   margin-left: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title_star img{
+   width: 12px;
+   height: 11px;
+   margin-left: 6px;
+   margin-right: 6px;
+}
+
+.title_star p{
+   padding-right: 6px;
+}
+
+.title_price{
+   background-color: #D9D9D9;
+   border-radius: 40px;
+   color: #626262;
+   padding: 6px;
+   margin-left: 6px;
+}
+
+.title_price p{
+   margin-left: 6px;
+   margin-right: 6px;
+}
+/**/
+
+/*БЛОК РЕСТОРАНОВ*/
+.main_container_restaurants{
+   margin-top: 14px;
+}
+.inner_container_restaurants{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.btn_buttom_restaurants{
+   width: 100%;
+}
+
+.btn_show_options{
+   background: linear-gradient(
+135deg
+, rgba(252, 47, 11, 1), rgba(255, 89, 15, 1));
+   padding: 15px;
+   border: none;
+   border-radius: 50px;
+   color: white;
+   font-weight: 400;
+   font-size: 1.2rem;
+   margin-top: 10px;
+   width:100%;
+   letter-spacing: .11rem;
+   outline:none;
+   transition: all .3s ease;
+   box-shadow: 1px 1px 20px -11px #000000;
+
+}
+
+.btn_show_options:hover
+{
+  transform: scale(1.01) translateY(-1px);
+   box-shadow: 3px 3px 6px #38373785;
+   cursor: pointer;
+}
+
+.footer{
+   background-color: #484848;
+   margin: 0 auto;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.footer_container{
+   width: 1220px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer_container img{
+   width: 225px;
+   height: 106px;
+}
+ 
+.footer_container ul li{
+   display: inline;
+}
+
+.footer_container ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: 700px;
+   font-size: 16px;
+   margin: 0px 20px;
+   font-family: 'Product Sans Light', sans-serif;
+}
+
+.footer_social{
+   width: 266px;
+}
+
+.footer_social p{
+   color: white;
+   font-weight: 700px;
+   font-size: 16px;
+   margin: 0px;
+   font-family: 'Product Sans Light', sans-serif;
+}
+
+.container_social_icons{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container_social_icons img{
+   width: 37px;
+   height: 28px;
+}
+
+.copyright{
+   text-align: center;
+   color: #fff;
+   font-family: 'Product Sans Thin', sans-serif;
+   font-size: 12px;
+   opacity: .3;
+}
+/**/
